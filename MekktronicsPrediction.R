@@ -1,3 +1,6 @@
+#Change the files path according to your directories path
+
+
 library(lubridate)
 library(sqldf)
 library(caret)
