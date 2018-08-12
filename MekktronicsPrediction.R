@@ -85,7 +85,7 @@ pred <- predict(rfFit1, testing)
 
 df <- data.frame(ydsTest,pred)
 
-write.csv(file="D:\\Development\\R\\Mekktronics\\predResults.csv", row.names=FALSE, x=df)
+write.csv(file="D:\\Development\\R\\Mekktronics\\predResults.csv", row.names=FALSE, x = df)
 
 result<-df[,c("S_No","Year", "Month", "Country","Product_ID", "pred")]
 
